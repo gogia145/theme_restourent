@@ -1,0 +1,28 @@
+/* CSS for frontend editor */
+.screen-reader-text{
+	display:none;
+}
+#TB_ajaxWindowTitle{
+	display:none;
+}
+.button.editpage,
+.button.thickbox{
+	position:absolute;
+	right:20px;
+	top:20px;
+	z-index: 5;
+}
+.button.thickbox:before {
+    font-family: "dashicons";
+    content: "\f119";
+	color: #fff;
+    font-size: 30px;
+    text-shadow: #000 0px 0px 22px;
+}
+.button.editpage:before {
+    font-family: "dashicons";
+    content: "\f111";
+	color: #fff;
+    font-size: 30px;
+    text-shadow: #000 0px 0px 22px;
+}

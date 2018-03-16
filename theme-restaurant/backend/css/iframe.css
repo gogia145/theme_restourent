@@ -1,0 +1,22 @@
+#wpcontent,
+#footer { 
+	margin-left: 0px;
+}
+#adminmenuback,
+#adminmenuwrap,
+#wpadminbar{
+	display:none;
+}
+html.wp-toolbar{
+	padding-top: 0px;
+}
+.auto-fold #wpcontent,
+.auto-fold #wpfooter {
+	margin-left: 0px !important;
+}
+#view-post-btn{
+	display:none;
+}
+.page-title-action{
+	display:none;
+}
